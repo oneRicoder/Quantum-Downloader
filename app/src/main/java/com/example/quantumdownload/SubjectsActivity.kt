@@ -9,7 +9,6 @@ class SubjectsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_subjects)
 
-
         if (intent.hasExtra("position")){
             val position = intent.getIntExtra("position",0)
             Toast.makeText(this, position.toString(), Toast.LENGTH_SHORT).show()
