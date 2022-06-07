@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_view.view.*
@@ -23,8 +22,8 @@ class ItemAdapter(val context: Context, val list: ArrayList<Int>): RecyclerView.
             holder.itemView.iv_of_itemview.setOnClickListener {
                 //Toast.makeText(context, "${position+1}", Toast.LENGTH_SHORT).show()
                 var bundle: Bundle = Bundle()
-                val intent = Intent(context, SubjectsActivity::class.java)
-                intent.putExtra("position",position+1)
+                val intent = Intent(context, SubjectActivity::class.java)
+                intent.putExtra("sem",position+1)
                 startActivity(context, intent, bundle)
             }
         }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055597005157",
+    "project_id": "quantum-downloader",
+    "storage_bucket": "quantum-downloader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055597005157:android:0d6bb915fc04292725398c",
+        "android_client_info": {
+          "package_name": "com.example.quantumdownload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055597005157-kl5eq85ejge5eagakqg0lmrk9r734fbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxFfcunvxAhaQ_wHFD7Gr2cyfizpJaHNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055597005157-kl5eq85ejge5eagakqg0lmrk9r734fbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
